@@ -1,0 +1,17 @@
+[
+	{
+    "request": {
+      "url": "/planets",
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "latency": 1000,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "http://localhost:3000"
+      },
+      "file": "planets/index.json"
+    }
+  }
+]

@@ -1,0 +1,58 @@
+{
+	"mercury": {
+		"description": "Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than either Mars's or the Moon’s.",
+		"rotation_time": "56.8",
+		"revolution_time": "87.97",
+		"radius": "2.439.7",
+		"average_temperature": "430"
+	},
+	"venus": {
+		"description": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
+		"rotation_time": "234",
+		"revolution_time": "224.7",
+		"radius": "6.051.8",
+		"average_temperature": "471"
+	},
+	"earth": {
+		"description": "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
+		"rotation_time": "0.99",
+		"revolution_time": "365.26",
+		"radius": "6.371",
+		"average_temperature": "16"
+	},
+	"mars": {
+		"description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the 'Red Planet'.",
+		"rotation_time": "1.03",
+		"revolution_time": "1.88",
+		"radius": "3.389.5",
+		"average_temperature": "-28"
+	},
+	"jupiter": {
+		"description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass two and a half times that of all the other planets in the Solar System combined, but less than one-thousandth the mass of the Sun.",
+		"rotation_time": "9.93",
+		"revolution_time": "11.86",
+		"radius": "69.911",
+		"average_temperature": "-108"
+	},
+	"saturn": {
+		"description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth.",
+		"rotation_time": "10.8",
+		"revolution_time": "29.46",
+		"radius": "58.232",
+		"average_temperature": "-138"
+	},
+	"uranus": {
+		"description": "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+		"rotation_time": "17.2",
+		"revolution_time": "84",
+		"radius": "25.362",
+		"average_temperature": "-195"
+	},
+	"neptune": {
+		"description": "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.",
+		"rotation_time": "16.08",
+		"revolution_time": "164.79",
+		"radius": "24.622",
+		"average_temperature": "-201"
+	}
+}
