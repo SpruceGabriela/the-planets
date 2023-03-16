@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { ThemeProvider } from "styled-components";
 import theme from "./Theme/theme";
 import GlobalFonts from "./Fonts/fonts";
