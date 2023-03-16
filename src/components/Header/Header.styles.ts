@@ -15,10 +15,10 @@ export const MenuList = styled.ul`
 `;
 
 export const Header = styled.header`
-	height: 70px;
+	height: auto;
 	width: 100%;
 	box-sizing: border-box;
-	padding: 0 32px;
+	padding: 12px 32px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
