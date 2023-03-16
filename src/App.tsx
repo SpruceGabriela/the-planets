@@ -1,13 +1,14 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import theme from "./Theme/theme";
-import GlobalFonts from "./Fonts/fonts";
+import theme from "./theme/theme";
+import GlobalFonts from "./fonts/fonts";
+import Header from "./components/Header";
 
 const App: React.FC = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<GlobalFonts />
-			<div>react app</div>
+			<Header />
 		</ThemeProvider>
 	);
 };
