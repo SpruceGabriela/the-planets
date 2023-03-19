@@ -1614,6 +1614,11 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@remix-run/router@1.4.0":
+  version "1.4.0"
+  resolved "https://unpm.uberinternal.com/%40remix-run%2Frouter/-/router-1.4.0.tgz#74935d538e4df8893e47831a7aea362f295bcd39"
+  integrity sha1-dJNdU45N+Ik+R4Maeuo2LylbzTk=
+
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
   resolved "https://unpm.uberinternal.com/%40rollup%2Fplugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
@@ -8006,6 +8011,21 @@ react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://unpm.uberinternal.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha1-dxmLlEcz8PHxqQ55HeRUH58HQEY=
+
+react-router-dom@^6.9.0:
+  version "6.9.0"
+  resolved "https://unpm.uberinternal.com/react-router-dom/-/react-router-dom-6.9.0.tgz#dd8b4e461453bd4cad2e6404493d1a5b4bfea758"
+  integrity sha1-3YtORhRTvUytLmQEST0aW0v+p1g=
+  dependencies:
+    "@remix-run/router" "1.4.0"
+    react-router "6.9.0"
+
+react-router@6.9.0:
+  version "6.9.0"
+  resolved "https://unpm.uberinternal.com/react-router/-/react-router-6.9.0.tgz#0f503d9becbc62d9e4ddc0f9bd4026e0fd29fbf5"
+  integrity sha1-D1A9m+y8Ytnk3cD5vUAm4P0p+/U=
+  dependencies:
+    "@remix-run/router" "1.4.0"
 
 react-scripts@5.0.1:
   version "5.0.1"
