@@ -9,7 +9,7 @@ import {
 	VENUS,
 } from "./routes";
 
-interface MenuItemsProps {
+export interface MenuItemsProps {
 	id: number;
 	title: string;
 	route: string;
