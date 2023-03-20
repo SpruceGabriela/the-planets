@@ -14,6 +14,13 @@ export const Header = styled.header`
 	color: ${(props) => props.theme.white};
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 
+	@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+		justify-content: center;
+		& > h2 {
+			display: none;
+		}
+	}
+
 	@media (max-width: 768px) {
 		padding: 12px 24px;
 	}

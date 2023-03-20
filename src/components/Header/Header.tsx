@@ -59,7 +59,7 @@ const Header: React.FC = () => {
 				<css.ToggleButton>
 					<GiHamburgerMenu
 						size={24}
-						color={theme.white}
+						color={isOpen ? theme.darkGrey : theme.white}
 						onClick={() => {
 							setIsOpen(!isOpen);
 						}}
