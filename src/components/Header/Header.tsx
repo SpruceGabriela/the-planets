@@ -15,7 +15,6 @@ const Header: React.FC = () => {
 	const navigate = useNavigate();
 	const [isOpen, setIsOpen] = useState(false);
 
-	// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 	const MobileLink = ({ title, route }: MenuItemsProps) => {
 		return (
 			<css.MenuItem
