@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
 import styled, { css } from "styled-components";
 import { type MenuProps } from "./Header.types";
 

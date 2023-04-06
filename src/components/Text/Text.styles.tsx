@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
 import { createElement } from "react";
 import styled, { css } from "styled-components";
 import { type TagVariants } from "./Text.types";

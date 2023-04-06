@@ -5980,7 +5980,7 @@ jest-pnp-resolver@^1.2.2:
   resolved "https://unpm.uberinternal.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.3.tgz#930b1546164d4ad5937d5540e711d4d38d4cad2e"
   integrity sha1-kwsVRhZNStWTfVVA5xHU041MrS4=
 
-jest-regex-util@^27.5.1:
+jest-regex-util@^27.0.0, jest-regex-util@^27.5.1:
   version "27.5.1"
   resolved "https://unpm.uberinternal.com/jest-regex-util/-/jest-regex-util-27.5.1.tgz#4da143f7e9fd1e542d4aa69617b38e4a78365b95"
   integrity sha1-TaFD9+n9HlQtSqaWF7OOSng2W5U=
@@ -6154,6 +6154,19 @@ jest-validate@^27.5.1:
     leven "^3.1.0"
     pretty-format "^27.5.1"
 
+jest-watch-typeahead@0.6.5:
+  version "0.6.5"
+  resolved "https://unpm.uberinternal.com/jest-watch-typeahead/-/jest-watch-typeahead-0.6.5.tgz#b809f79eed106b6cf832e59a5fe54481f2d1918e"
+  integrity sha1-uAn3nu0Qa2z4MuWaX+VEgfLRkY4=
+  dependencies:
+    ansi-escapes "^4.3.1"
+    chalk "^4.0.0"
+    jest-regex-util "^27.0.0"
+    jest-watcher "^27.0.0"
+    slash "^3.0.0"
+    string-length "^4.0.1"
+    strip-ansi "^6.0.0"
+
 jest-watch-typeahead@^1.0.0:
   version "1.1.0"
   resolved "https://unpm.uberinternal.com/jest-watch-typeahead/-/jest-watch-typeahead-1.1.0.tgz#b4a6826dfb9c9420da2f7bc900de59dad11266a9"
@@ -6167,7 +6180,7 @@ jest-watch-typeahead@^1.0.0:
     string-length "^5.0.1"
     strip-ansi "^7.0.1"
 
-jest-watcher@^27.5.1:
+jest-watcher@^27.0.0, jest-watcher@^27.5.1:
   version "27.5.1"
   resolved "https://unpm.uberinternal.com/jest-watcher/-/jest-watcher-27.5.1.tgz#71bd85fb9bde3a2c2ec4dc353437971c43c642a2"
   integrity sha1-cb2F+5veOiwuxNw1NDeXHEPGQqI=
