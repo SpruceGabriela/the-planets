@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Earth: React.FC = () => <main>Earth</main>;
 

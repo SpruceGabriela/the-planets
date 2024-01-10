@@ -1,9 +1,9 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
-import AntonioWoff from './Antonio.woff';
-import AntonioWoff2 from './Antonio.woff2';
-import SpartanWoff from './Spartan.woff';
-import SpartanWoff2 from './Spartan.woff2';
+import AntonioWoff from "./Antonio.woff";
+import AntonioWoff2 from "./Antonio.woff2";
+import SpartanWoff from "./Spartan.woff";
+import SpartanWoff2 from "./Spartan.woff2";
 
 export default createGlobalStyle`
 	@font-face {
