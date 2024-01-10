@@ -1,5 +1,5 @@
-import styled, { css } from "styled-components";
-import { type MenuProps } from "./Header.types";
+import styled, { css } from 'styled-components';
+import { type MenuProps } from './Header.types';
 
 export const Header = styled.header`
 	height: auto;

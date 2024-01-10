@@ -11,7 +11,7 @@
 	"proseWrap": "preserve",
 	"quoteProps": "as-needed",
 	"requirePragma": false,
-	"singleQuote": true,
+	"singleQuote": false,
 	"trailingComma": "all",
 	"useTabs": true,
 	"vueIndentScriptAndStyle": false

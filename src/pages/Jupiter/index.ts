@@ -1,1 +1,1 @@
-export { default } from "./Jupiter";
+export { default } from './Jupiter';

@@ -1,1 +1,1 @@
-export { default } from "./Venus";
+export { default } from './Venus';

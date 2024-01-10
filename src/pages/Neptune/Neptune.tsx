@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Neptune: React.FC = () => <main>Neptune</main>;
 
