@@ -1,21 +1,22 @@
-import React, { useState } from 'react';
-import { useMediaQuery } from 'react-responsive';
-import { NavLink, useNavigate } from 'react-router-dom';
-
-import { type DefaultTheme, useTheme } from 'styled-components';
-import { menuItems, type MenuItemsProps } from '../../constants/menuItems';
-import Text from '../Text';
-import { BsCircleFill, BsChevronRight } from 'react-icons/bs';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import * as css from './Header.styles';
+import React, { useState } from "react";
+import { useMediaQuery } from "react-responsive";
+import { NavLink, useNavigate } from "react-router-dom";
+import { menuItems, type MenuItemsProps } from "../../constants/menuItems";
+import Text from "../Text";
+import { BsCircleFill, BsChevronRight } from "react-icons/bs";
+import { GiHamburgerMenu } from "react-icons/gi";
+import * as css from "./Header.styles";
+import { useTheme } from "styled-components";
 
 const Header: React.FC = () => {
 	const theme = useTheme();
-	const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+	const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 	const navigate = useNavigate();
 	const [isOpen, setIsOpen] = useState(false);
 
 	const MobileLink = ({ title, route }: MenuItemsProps) => {
+		const getIconColor = theme.colors[title];
+
 		return (
 			<css.MenuItem
 				onClick={() => {
@@ -24,17 +25,17 @@ const Header: React.FC = () => {
 				}}
 			>
 				<div>
-					<BsCircleFill color={theme[title as keyof DefaultTheme]} />
-					<Text tag='h4'>{title}</Text>
+					<BsCircleFill color={getIconColor} />
+					<Text tag="h4">{title}</Text>
 				</div>
-				<BsChevronRight color={theme.lightGrey} size={16} />
+				<BsChevronRight color={theme.colors.lightGrey} size={16} />
 			</css.MenuItem>
 		);
 	};
 
 	return (
 		<css.Header>
-			<Text tag='h2'>the planets</Text>
+			<Text tag="h2">the planets</Text>
 			<css.MenuList isOpen={isOpen}>
 				{menuItems.map((item) => {
 					if (isMobile) {
@@ -49,7 +50,7 @@ const Header: React.FC = () => {
 					}
 					return (
 						<NavLink key={item.id} to={item.route}>
-							<Text tag='h4'>{item.title}</Text>
+							<Text tag="h4">{item.title}</Text>
 						</NavLink>
 					);
 				})}
@@ -58,7 +59,7 @@ const Header: React.FC = () => {
 				<css.ToggleButton>
 					<GiHamburgerMenu
 						size={24}
-						color={isOpen ? theme.darkGrey : theme.white}
+						color={isOpen ? theme.colors.darkGrey : theme.colors.white}
 						onClick={() => {
 							setIsOpen(!isOpen);
 						}}

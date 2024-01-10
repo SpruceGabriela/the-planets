@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components';
-import { type MenuProps } from './Header.types';
+import styled, { css } from "styled-components";
+import { type MenuProps } from "./Header.types";
 
 export const Header = styled.header`
 	height: auto;
@@ -9,8 +9,8 @@ export const Header = styled.header`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: ${(props) => props.theme.background};
-	color: ${(props) => props.theme.white};
+	background-color: ${(props) => props.theme.colors.background};
+	color: ${(props) => props.theme.colors.white};
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 
 	@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
@@ -43,7 +43,7 @@ export const MenuList = styled.ul<MenuProps>`
 		height: 100%;
 		width: -webkit-fill-available;
 		max-width: 100%;
-		background-color: ${(props) => props.theme.background};
+		background-color: ${(props) => props.theme.colors.background};
 		padding: 0 24px;
 		gap: 0;
 		transition: 0.3s;
